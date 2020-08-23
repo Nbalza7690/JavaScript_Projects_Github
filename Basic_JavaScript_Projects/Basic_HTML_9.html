@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML Template</title>
+        <script src="./JS/Basic_JavaScript_9.js"></script>
+        <link rel="stylesheet" type="text/css" href="./CSS/Basic_CSS_1.css"
+    </head>
+    <body>
+
+        <!-- Timer -->
+
+        <p>Please enter the number of secopnds you want your timer to be set to...</p>
+        <input id="seconds" value="" />
+        <button onclick="funct1()">Enter</button>
+        <p id="timer"></p>
+
+        <!-- Slideshow container -->
+
+        <div class="slideshow-container">
+
+            <!-- Images and maybe caption and text... -->
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">1 / 11</div>
+                <img class ="scale-down" src="./Images/Day_pic_1.jpg" style="width: 100%;height: 800px">
+                <div class="text">Day one pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">2 / 11</div>
+                <img class ="scale-down" src="./Images/Day_pic_2.jpg" style="width: 100%;height: 800px">
+                <div class="text">Day two pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">3 / 11</div>
+                <img class ="scale-down" src="./Images/Food_pic_1.jpg" style="width: 100%;height: 800px">
+                <div class="text">Food one pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">4 / 11</div>
+                <img class ="scale-down" src="./Images/Food_pic_2.jpg" style="width: 100%;height: 800px">
+                <div class="text">Food two pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">5 / 11</div>
+                <img class ="scale-down" src="./Images/Food_pic_3.jpg" style="width: 100%;height: 800px">
+                <div class="text">Food three pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">6 / 11</div>
+                <img class ="scale-down" src="./Images/Night_pic_1.jpg" style="width: 100%;height: 800px">
+                <div class="text">Night one pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">7 / 11</div>
+                <img class ="scale-down" src="./Images/Night_pic_2.jpg" style="width: 100%;height: 800px">
+                <div class="text">Night two pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">8 / 11</div>
+                <img class ="scale-down" src="./Images/Outdoor_pic_1.jpg" style="width: 100%;height: 800px">
+                <div class="text">Outdoor one pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">9 / 11</div>
+                <img class ="scale-down" src="./Images/Wall_pic_1.jpg" style="width: 100%;height: 800px">
+                <div class="text">Wall one pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">10 / 11</div>
+                <img class ="scale-down" src="./Images/Wall_pic_2.jpg" style="width: 100%;height: 800px">
+                <div class="text">Wall two pic</div>
+            </div>
+
+            <div class="Pharmslides fade">
+                <div class="numbertext">11 / 11</div>
+                <img class ="scale-down" src="./Images/Art_pic_1.jpg" style="width: 100%;height: 800px">
+                <div class="text">Art one pic</div>
+            </div>
+
+            <!-- Forward and Back Buttons -->
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+        <br>
+
+        <!-- Dot/Circles? -->
+
+        <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+        
+        
+    </body>
+</html>
